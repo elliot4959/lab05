@@ -27,7 +27,7 @@ footer a:hover {
   
   Also sets styles for the section tags and hides them.
 */
-main > input,
+input,
 section {
   display: none;
   padding: 1em;
@@ -130,15 +130,43 @@ label:last-child {
 
 
 /* --------- table styles below here --------- */
-
+table {
+  font-family: arial;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
 
 /* --------- unordered list styles below here --------- */
-
+ul {
+  margin: none;
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding: 1em;
+  border-top: 2em;
+  border-bottom: 2em;
+}
 
 /* --------- definition list styles below here --------- */
-
-
-
+#content3 input {
+  display: inline-block;
+}
+#content3 label {
+  display: inline;
+  width: 200px;
+  background: #fff;
+  border-right: none;
+  color: #000;
+}
+#content3 #space-for-paragraphs {
+	display: block;
+}
+#content3 li {
+  padding: 0em;
+}
 
 /* --------- Basic responsive breakpoint --------- */
 

@@ -39,13 +39,17 @@
         <h2>HTML5</h2>
       </header>
 
-      <table>
-        <!-- one row of table header tags -->
-        <!-- 5 rows of table data tags -->
+	    <p>Here are 5 things I know about HTML:</p>
+	    <table>
+        <tr><td>HTML stands for HyperText Markup Language</td></tr>
+        <tr><td>This language is responsible for the content of a web page, WHAT you see</td></tr>
+        <tr><td>Some tags, like img have attributes, like src and alt</td></tr>
+        <tr><td>It is good practise in HTML to double space indent rather than using tabs</td></tr>
+        <tr><td>HTML5 is the latest of the HTML languages and introduced numerous more semantic elements</td></tr>
       </table>
 
       <footer>
-        <p><a href="#">add an 'a' tag link to an HTML5 resource on the web</a></p>
+        <p><a href="#">add an optional link to an HTML5 article here</a></p>
       </footer>
     </section>
 
@@ -55,12 +59,17 @@
         <h2>CSS</h2>
       </header>
 
-      <ul>
-        <!-- 5 li tags -->
-      </ul>
+      <p>Here are 5 things I know about CSS:</p>
+	    <ul>
+	      <li>CSS stands for Cascading Style Sheet</li>
+        <li>CSS is responsible for how the content is displayed on a web page</li>
+        <li>Within a CSS sheet, you should order the styles as they appear on a web page</li>
+        <li>Styling of a website should be done mobile-first. That is, developed for mobiles, and extended for larger devices using breakpoints</li>
+        <li>There are often many curly braces in CSS files</li>
+	    </ul>
 
       <footer>
-        <p><a href="#">add an 'a' tag link to a CSS resource on the web</a></p>
+        <p>add an optional link to a CSS article here</p>
       </footer>
     </section>
 
@@ -70,17 +79,24 @@
         <h2>JavaScript</h2>
       </header>
 
-      <dl>
-        <!-- 5 pairs of dt and dd tags -->
-      </dl>
+      <form id="sentence-form">
+        <label for="sentence">Enter your text:</label>
+        <input id="sentence" type="text" placeholder="Type here...">
+        <input type="submit">
+      </form>
 
+      <ol id="space-for-paragraphs">
+      
+      </ol>
+      
       <footer>
-        <p><a href="#">add an 'a' tag link to a JavaScript resource on the web</a></p>
+        <p>add an optional link to an JavaScript article here</p>
       </footer>
     </section>
 
   </main>
 
+  <script src="scripts/scripts.js"></script>
   <!-- adapted from a CodePen by Thierry Koblentz: http://cssmojo.com/pure-css-tab-panel/ -->
 </body>
 </html>
